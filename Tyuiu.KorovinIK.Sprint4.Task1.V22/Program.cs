@@ -42,7 +42,7 @@ namespace Tyuiu.KorovinIK.Sprint4.Task1.V22
             {
                 Console.WriteLine("Введите элемент массива №" + (i + 1));
 
-                int value = Convert.ToInt32(Console.ReadLine());
+                int value = Convert.ToInt32(Console.ReadLine()); 
 
                 while (value < 2 || value > 9)
                 {
