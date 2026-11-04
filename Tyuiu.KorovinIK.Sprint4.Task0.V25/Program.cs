@@ -3,7 +3,7 @@ namespace Tyuiu.KorovinIK.Sprint4.Task0.V25
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] args) 
         {
             DataService ds = new DataService();
             Console.Title = "Спринт #4 | Выполнил: Коровин И. К. | ИСТНб-26-1";
