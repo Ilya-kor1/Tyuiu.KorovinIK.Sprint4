@@ -1,5 +1,5 @@
 ﻿using Tyuiu.KorovinIK.Sprint4.Task7.V27.Lib;
-namespace Tyuiu.KorovinIK.Sprint4.Task7.V27.Tets
+namespace Tyuiu.KorovinIK.Sprint4.Task7.V27.Test
 {
     [TestClass]
     public sealed class DataServiceTest
@@ -7,7 +7,7 @@ namespace Tyuiu.KorovinIK.Sprint4.Task7.V27.Tets
         [TestMethod]
         public void VaildCalc()
         {
-            
+
             int n = 4;
             int m = 3;
             int[,] mtrx = new int[n, m];
